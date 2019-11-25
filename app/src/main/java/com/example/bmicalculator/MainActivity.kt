@@ -1,5 +1,6 @@
 package com.example.bmicalculator
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
@@ -51,7 +52,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun reset(){
-        txtHeight.text = null
+        txtHeight.setText("")
         txtWeight.text = null
         txtValue.text = null
         txtBMI.text = null
